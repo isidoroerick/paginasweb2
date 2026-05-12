@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Constancia CURP - Erick Isidoro García</title>
+    <style>
+        body { font-family: 'Arial', sans-serif; background-color: #f0f2f5; display: flex; justify-content: center; padding: 20px; }
+        .curp-container { background: white; width: 100%; max-width: 600px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); overflow: hidden; border: 1px solid #ddd; }
+        .header { background-color: #13322b; color: white; padding: 20px; text-align: center; }
+        .header h1 { margin: 0; font-size: 18px; text-transform: uppercase; }
+        .header p { margin: 5px 0 0; font-size: 12px; opacity: 0.9; }
+        .content { padding: 25px; }
+        .data-group { margin-bottom: 20px; border-bottom: 1px solid #eee; padding-bottom: 10px; }
+        .label { font-size: 11px; color: #666; text-transform: uppercase; font-weight: bold; display: block; margin-bottom: 4px; }
+        .value { font-size: 18px; color: #333; font-weight: bold; }
+        .curp-value { font-size: 24px; color: #13322b; letter-spacing: 2px; }
+        .status-badge { display: inline-block; background-color: #e7f4e8; color: #2e7d32; padding: 6px 12px; border-radius: 20px; font-size: 13px; font-weight: bold; margin-top: 10px; }
+        .footer { background-color: #f9f9f9; padding: 15px 25px; font-size: 11px; color: #777; border-top: 1px solid #eee; }
+        .footer-info { display: flex; justify-content: space-between; }
+    </style>
+</head>
+<body>
+
+    <div class="curp-container">
+        <div class="header">
+            <h1>Constancia de la CURP</h1>
+            <p>Estados Unidos Mexicanos | Secretaría de Gobernación</p>
+        </div>
+
+        <div class="content">
+            <div class="data-group">
+                <span class="label">Nombre Completo</span>
+                <span class="value">ERICK ISIDORO GARCIA</span>
+            </div>
+
+            <div class="data-group">
+                <span class="label">Clave Única de Registro de Población</span>
+                <span class="value curp-value">IIGE080513HMCSRRA5</span>
+            </div>
+
+            <div class="data-group">
+                <span class="label">Entidad de Registro</span>
+                <span class="value">MEXICO</span>
+            </div>
+
+            <div class="status-badge">
+                ✓ CURP Certificada: Verificada con el Registro Civil
+            </div>
+        </div>
+
+        <div class="footer">
+            <div class="footer-info">
+                <span>Fecha de emisión: 12 de mayo de 2026</span>
+                <span>Folio: 115047200801043</span>
+            </div>
+            <p style="margin-top: 10px; text-align: center;">Trámite Gratuito | TELCURP: 800 911 11 11</p>
+        </div>
+    </div>
+
+</body>
+</html>
